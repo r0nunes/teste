@@ -12,4 +12,4 @@ jobs:
     - name: Reading logs
       env: 
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      run: heroku run ls --app my-app
+      run: heroku run ls --app mp-qa
